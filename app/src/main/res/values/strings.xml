@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ServletCrudApp</string>
+    <string name="url">http://192.168.43.96:8084/JavaServletApp/</string>
+</resources>

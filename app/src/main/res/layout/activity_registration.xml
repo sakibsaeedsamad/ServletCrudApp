@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/etNameRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Your Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/etPhoneNoRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Phone Number"
+        android:inputType="phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/etPasswordRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Your Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="REGISTER" />
+
+
+
+
+
+
+
+
+</LinearLayout>
