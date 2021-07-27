@@ -9,7 +9,7 @@ import retrofit2.http.*
 
 interface API {
     @FormUrlEncoded
-    @POST("api-login")
+    @POST("UserApi")
     fun doLogin(
         @Field("requestCode") requestCode: String?,
         @Field("phone") phone: String?,
